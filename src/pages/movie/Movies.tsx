@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {defaultDetails} from './data';
 import {IMovie, IMovieDetails} from './movie.types';
 import './Movies.css';

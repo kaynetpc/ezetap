@@ -1,8 +1,8 @@
 import {Route, Routes} from 'react-router-dom';
 import {NotFound} from './pages/notfound/NotFound';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import MoviesPage from './pages/MoviesPage';
+import Dashboard from './pages/dashboard/Dashboard';
+import MoviesPage from './pages/movie/MoviesPage';
+import Login from './pages/login/Login';
 
 type Props = {}
 

@@ -5,7 +5,7 @@ export interface IFormSchema {
     type: 'input' | 'select' | 'textarea',
     values?: any[]
     control: {
-        type?: 'input' | 'select' | 'textarea' | 'tileSelect';
+        type?: 'input' | 'select' | 'textarea' | 'tileSelect' | 'password';
         label: string;
         placeholder?: string;
         renderKey?:string;

@@ -1,0 +1,33 @@
+.add-user-form {
+    background-color: #F5F7FB;
+    width: 370px;
+    min-height: 500px;
+    border-radius: 12px;
+    padding-bottom: 20px;
+}
+
+.add-user-form-title {
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 15px;
+}
+
+.add-user-form-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #d0d7e6;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .add-user-form {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    font-family: "Titillium Web";
+    }
+    .sideBarNav li:hover{
+        border-right: 3px solid #08cff7;
+        color: #000;
+    }
+    ul{
+        width: 100%;
+    }
+    .sideBarNav li {
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .sideBarNav li:active{
+        border-right: #08cff7 1px solid;
+    }
+    .logout-li li:hover{
+        border-right: #08cff7 3px solid;
+        color: #000;
+        cursor: pointer;
+    }
+    .profile-picture img{
+        border-radius: 90%;
+        height: 60px;
+        margin-right: 10px;
+        
+        margin-top: 5px;
+    }
+    .profile-picture p{
+        margin-top: 20px;
+        font-family: "Titillium Web";
+    }
+    .profile-picture span{
+        margin-top: 20px;
+    }

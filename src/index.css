@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgba(129, 175, 247, 0.064);
+}
+
+.close-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: larger;
+    opacity: .5;
+    transition: ease-in-out .5sec;
+}
+
+.clickable-icon {
+    cursor: pointer;
+}

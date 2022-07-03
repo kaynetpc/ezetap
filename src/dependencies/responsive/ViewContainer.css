@@ -1,0 +1,20 @@
+.desktop-view {
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .mobile-view {
+        display: block;
+        width: 100%;
+    }
+    .desktop-view {
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+
+.paginate-nav {
+    
+}
+
+.current-tab {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    margin: 5px;
+    transition: ease-in-out .3s;
+    height: 40px;
+    width: 40px;
+}
+
+
+.paginate-tabs {
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    margin: 5px;
+    transition: ease-in-out .3s;
+    height: 40px;
+    width: 40px;
+}
+
+.pagination-element {
+    min-width: 100px;
+    text-align: center;
+    font-weight: 700;
+}
